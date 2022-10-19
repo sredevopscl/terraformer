@@ -26,15 +26,15 @@ jobs:
         run: GOOS=darwin go build -o terraformer-all-darwin-amd64
       - name: Build for mac Apple Silicon
         run: GOOS=darwin GOARCH=arm64 go build -o terraformer-all-darwin-arm64
-      - name: Build for windows
-        run: GOOS=windows go build -o terraformer-all-windows-amd64
+#      - name: Build for windows
+#        run: GOOS=windows go build -o terraformer-all-windows-amd64
       - name: Build for all providers
         run: go run build/multi-build/main.go
 
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: ${{ github.event.inputs.version }}
+          automatic_release_tag: sredevops-${{ github.event.inputs.version }}
           prerelease: false
           files: |
             terraformer-*
