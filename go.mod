@@ -142,7 +142,7 @@ require (
 	github.com/mrparkers/terraform-provider-keycloak v0.0.0-20221013232944-56f37a07590d
 	github.com/nicksnyder/go-i18n v1.10.1 // indirect
 	github.com/okta/okta-sdk-golang/v2 v2.12.2-0.20220602195034-d7ea6917663f
-	github.com/opencontainers/image-spec v1.0.1 // indirect
+	github.com/opencontainers/image-spec v1.0.2 // indirect
 	github.com/opencontainers/runc v1.1.5 // indirect
 	github.com/opsgenie/opsgenie-go-sdk-v2 v1.2.9
 	github.com/ory/dockertest v3.3.5+incompatible // indirect
@@ -396,12 +396,9 @@ require (
 	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/redis v1.0.392
 	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/scf v1.0.392
 	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/ses v1.0.392
-	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/sms v1.0.392
 	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/ssl v1.0.392
 	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/tat v1.0.392
 	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/tcaplusdb v1.0.392
-	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/tem v1.0.392
-	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/vod v1.0.392
 	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/vpc v1.0.392
 )
 
